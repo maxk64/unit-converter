@@ -97,13 +97,13 @@ func main() {
 	case 2:
 		kilobytes = toConvert * 1000
 	case 3:
-		kilobytes = toConvert * math.Pow(1000, 3)
+		kilobytes = toConvert * math.Pow(1000, 2)
 	case 4:
 		kilobytes = toConvert
 	case 5:
 		kilobytes = toConvert * 1024
 	case 6:
-		kilobytes = toConvert * math.Pow(1024, 3)
+		kilobytes = toConvert * math.Pow(1024, 2)
 	}
 	fmt.Printf("Resulting kBs: %f\n", kilobytes)
 

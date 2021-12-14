@@ -1,4 +1,4 @@
 # unit-converter
 
 A data unit converter.
-Not entirely accurate.
+It may not be entirely accurate.
